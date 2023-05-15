@@ -5,7 +5,7 @@ app = Flask(__name__)
  
 # A decorator used to tell the application
 # which URL is associated function
-@app.route('/', methods =["POST"])
+@app.route('https://tez-flask-uygulama.herokuapp.com', methods =["POST"])
 def gfg():
     if request.method == "POST":
        # getting input with name = fname in HTML form
